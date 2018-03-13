@@ -1,6 +1,6 @@
 # laravel-helpers
 Laravel helper Functions
-
+```
 "autoload": {
     "classmap": [
         ...
@@ -11,4 +11,5 @@ Laravel helper Functions
     "files": [
         "app/helpers.php" // <---- ADD THIS
     ]
-},
+}
+```
