@@ -3,8 +3,8 @@
 function isActiveRoute($route, $output = 'active')
 {
     if (is_array($route)) {
-        foreach ($routes as $route) {
-            if (Route::currentRouteName() == $route) return $output;
+        foreach ($route as $r) {
+            if (Route::currentRouteName() == $r) return $output;
         }
         
         return null;
